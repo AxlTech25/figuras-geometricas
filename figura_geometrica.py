@@ -1,31 +1,4 @@
-"""Figura Geometrica script"""
-from abc import ABC, abstractmethod
-
-
-class FiguraG(ABC):
-    """
-    Clase abstracta que representa una figura geométrica.
-    """
-
-    @abstractmethod
-    def calcular_area(self):
-        """Método abstracto para calcular el área de una figura."""
-
-
-
-class Rectangulo(FiguraG):
-    """Calcula el área del rectángulo."""
-    def __init__(self, base, altura):
-        """área del rectángulo."""
-        self.base = base
-        self.altura = altura
-
-    def calcular_area(self):
-        """Calcula el área del rectángulo."""
-        area = self.base*self.altura
-        return area
-
-    def obtener_base(self):
+eaself):
         """Devuelve la base del rectángulo."""
         return self.base
 
